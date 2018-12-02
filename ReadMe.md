@@ -1,6 +1,6 @@
 # Code Master
 
-This is a solver for [Code Master](https://www.thinkfun.com/products/code-master/) a game to learn programming logic.
+This is a solver for [Code Master](https://www.thinkfun.com/products/code-master/), a game to learn programming logic.
 
 Being stuck with my son at the 45 level, we decided that solving it by programming a solver was not cheating.
 
