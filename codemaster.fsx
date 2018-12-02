@@ -667,6 +667,15 @@ let level24 = {
     conditions = []
     moves = [R;R;G;G;G;G;B]
 }
+let level25 = {
+    map = map5
+    scroll = scroll4()
+    start = Pos 5
+    portal = Pos 0
+    christals = []
+    conditions = [Troll Orange]
+    moves = [R;G;B]
+}
 let level45 = {
     map = map5
     scroll = scroll11()
@@ -765,6 +774,7 @@ solve level21
 solve level22
 solve level23
 solve level24
+solve level25
 solve level45
 solve level46
 solve level47
