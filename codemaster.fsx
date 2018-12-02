@@ -593,9 +593,44 @@ let level16 = {
     portal = Pos 3
     christals = [2;2;2;4;4;4]
     conditions = [ChristalCount (Christals 6)]
-    moves = [R;G;B] }
-
-
+    moves = [R;G;B]
+}
+let level17 = {
+    map = map7
+    scroll = scroll3()
+    start = Pos 3
+    portal = Pos 5
+    christals = [0;4]
+    conditions = []
+    moves = [R;G;G;G;B;B]
+}
+let level18 = {
+    map = map8
+    scroll = scroll3()
+    start = Pos 9
+    portal = Pos 2
+    christals = [11]
+    conditions = []
+    moves = [R;G;G;B;B;B]
+}
+let level19 = {
+    map = map9
+    scroll = scroll3()
+    start = Pos 2
+    portal = Pos 8
+    christals = [0;4]
+    conditions = []
+    moves = [R;G;G;B;B;B]
+}
+let level20 = {
+    map = map10
+    scroll = scroll5()
+    start = Pos 6
+    portal = Pos 0
+    christals = [2]
+    conditions = []
+    moves = [R;R;R;G;B;B;B]
+}
 let level45 = {
     map = map5
     scroll = scroll11()
