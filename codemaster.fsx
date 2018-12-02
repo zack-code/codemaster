@@ -631,6 +631,42 @@ let level20 = {
     conditions = []
     moves = [R;R;R;G;B;B;B]
 }
+let level21 = {
+    map = map1
+    scroll = scroll2()
+    start = Pos 0
+    portal = Pos 5
+    christals = [1;1]
+    conditions = []
+    moves = [R;G;G;G;B]
+}
+let level22 = {
+    map = map2
+    scroll = scroll3()
+    start = Pos 5
+    portal = Pos 0
+    christals = [3;4]
+    conditions = []
+    moves = [R;G;G;G;G;B]
+}
+let level23 = {
+    map = map3
+    scroll = scroll4()
+    start = Pos 2
+    portal = Pos 4
+    christals = [1;3]
+    conditions = [ChristalCount (Christals 2)]
+    moves = [R;G;B]
+}
+let level24 = {
+    map = map4
+    scroll = scroll5()
+    start = Pos 0
+    portal = Pos 5
+    christals = [4;4;5;5]
+    conditions = []
+    moves = [R;R;G;G;G;G;B]
+}
 let level45 = {
     map = map5
     scroll = scroll11()
@@ -648,7 +684,6 @@ let level46 = {
     christals = [ 0; 1;1;1; 4 ]
     conditions = [ChristalCount (Christals 2); Troll Purple ;ChristalCount (Christals 5)]
     moves = [B;G;R;R] }
-
 
 let level47 = {
     map = map7
@@ -726,6 +761,10 @@ solve level17
 solve level18
 solve level19
 solve level20
+solve level21
+solve level22
+solve level23
+solve level24
 solve level45
 solve level46
 solve level47
