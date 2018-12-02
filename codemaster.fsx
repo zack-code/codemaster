@@ -540,7 +540,52 @@ let level10 = {
     christals = []
     conditions = []
     moves = [R;R;R;G;B;B] }
+let level11 = {
+    map = map1
+    scroll = scroll1()
+    start = Pos 2
+    portal = Pos 4
+    christals = [1]
+    conditions = []
+    moves = [R;R;G;B]
+}
 
+let level12 = {
+    map = map2
+    scroll = scroll2()
+    start = Pos 5
+    portal = Pos 0
+    christals = []
+    conditions = []
+    moves = [R;R;G;G;B]
+}
+let level13 = {
+    map = map3
+    scroll = scroll2()
+    start = Pos 5
+    portal = Pos 0
+    christals = [4;4]
+    conditions = []
+    moves = [R;R;R;G;B]
+}
+let level14 = {
+    map = map4
+    scroll = scroll2()
+    start = Pos 0
+    portal = Pos 4
+    christals = [4;4;5]
+    conditions = []
+    moves = [R;G;G;B;B]
+}
+let level15 = {
+    map = map5
+    scroll = scroll2()
+    start = Pos 4
+    portal = Pos 0
+    christals = [2;5]
+    conditions = []
+    moves = [R;R;G;B;B]
+}
 let level16 = {
     map = map6
     scroll = scroll4()
@@ -636,6 +681,11 @@ solve level7
 solve level8
 solve level9
 solve level10
+solve level11
+solve level12
+solve level13
+solve level14
+solve level15
 solve level16
 solve level45
 solve level46
