@@ -722,6 +722,10 @@ solve level13
 solve level14
 solve level15
 solve level16
+solve level17
+solve level18
+solve level19
+solve level20
 solve level45
 solve level46
 solve level47
