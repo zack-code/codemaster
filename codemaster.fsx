@@ -676,6 +676,51 @@ let level25 = {
     conditions = [Troll Orange]
     moves = [R;G;B]
 }
+let level26 = {
+    map = map6
+    scroll = scroll5()
+    start = Pos 0
+    portal = Pos 1
+    christals = [2;3;3;4]
+    conditions = []
+    moves = [R;R;R;G;B;B;B]
+}
+let level27 = {
+    map = map7
+    scroll = scroll4()
+    start = Pos 0
+    portal = Pos 1
+    christals = [2;5]
+    conditions = [ChristalCount (Christals 2)]
+    moves = [R;G;B]
+}
+let level28 = {
+    map = map8
+    scroll = scroll5()
+    start = Pos 9
+    portal = Pos 4
+    christals = [2]
+    conditions = [ChristalCount (Christals 2)]
+    moves = [R;R;R;G;B;B;B]
+}
+let level29 = {
+    map = map9
+    scroll = scroll3()
+    start = Pos 5
+    portal = Pos 8
+    christals = [6;9]
+    conditions = []
+    moves = [R;G;G;G;B;B]
+}
+let level30 = {
+    map = map10
+    scroll = scroll6()
+    start = Pos 6
+    portal = Pos 6
+    christals = [3]
+    conditions = [Troll Orange]
+    moves = [R;R;G;B]
+}
 let level45 = {
     map = map5
     scroll = scroll11()
@@ -775,6 +820,11 @@ solve level22
 solve level23
 solve level24
 solve level25
+solve level26
+solve level27
+solve level28
+solve level29
+solve level30
 solve level45
 solve level46
 solve level47
