@@ -238,6 +238,13 @@ let bg = [B;G]
 let rb = [R;B]
 let gr = [G;R]
 
+let x1 = ChristalCount (Christals 1)
+let x2 = ChristalCount (Christals 2)
+let x3 = ChristalCount (Christals 3)
+let x4 = ChristalCount (Christals 4)
+let x5 = ChristalCount (Christals 5)
+let x6 = ChristalCount (Christals 6)
+
 
 let scroll1() = 1 **> 2 **> 3 **> 4 **> Portal
 
@@ -592,7 +599,7 @@ let level16 = {
     start = Pos 1
     portal = Pos 3
     christals = [2;2;2;4;4;4]
-    conditions = [ChristalCount (Christals 6)]
+    conditions = [x6]
     moves = [R;G;B]
 }
 let level17 = {
@@ -655,7 +662,7 @@ let level23 = {
     start = Pos 2
     portal = Pos 4
     christals = [1;3]
-    conditions = [ChristalCount (Christals 2)]
+    conditions = [x2]
     moves = [R;G;B]
 }
 let level24 = {
@@ -691,7 +698,7 @@ let level27 = {
     start = Pos 0
     portal = Pos 1
     christals = [2;5]
-    conditions = [ChristalCount (Christals 2)]
+    conditions = [x2]
     moves = [R;G;B]
 }
 let level28 = {
@@ -700,7 +707,7 @@ let level28 = {
     start = Pos 9
     portal = Pos 4
     christals = [2]
-    conditions = [ChristalCount (Christals 2)]
+    conditions = [x2]
     moves = [R;R;R;G;B;B;B]
 }
 let level29 = {
@@ -721,13 +728,58 @@ let level30 = {
     conditions = [Troll Orange]
     moves = [R;R;G;B]
 }
+let level31 = {
+    map = map1
+    scroll = scroll6()
+    start = Pos 2
+    portal = Pos 4
+    christals = [1;1;5]
+    conditions = [x2]
+    moves = [R;R;G;B]
+}
+let level32 = {
+    map = map2
+    scroll = scroll3()
+    start = Pos 4
+    portal = Pos 5
+    christals = [0;1;5;5]
+    conditions = []
+    moves = [R;R;R;G;G;B]
+}
+let level33 = {
+    map = map3
+    scroll = scroll4()
+    start = Pos 1
+    portal = Pos 4
+    christals = [3;3;3]
+    conditions = [Troll Orange]
+    moves = [R;G;B]
+}
+let level34 = {
+    map = map4
+    scroll = scroll7()
+    start = Pos 3
+    portal = Pos 4
+    christals = [1;4;4]
+    conditions = [Troll Purple]
+    moves = [R;G;G;B;B;B]
+}
+let level35 = {
+    map = map5
+    scroll = scroll8()
+    start = Pos 4
+    portal = Pos 0
+    christals = [2;5;5]
+    conditions = [x2;x3]
+    moves = [R;G;B]
+}
 let level45 = {
     map = map5
     scroll = scroll11()
     start = Pos 2
     portal = Pos 3
     christals = [1;1;1 ]
-    conditions = [ChristalCount (Christals 3); Troll Purple]
+    conditions = [x3; Troll Purple]
     moves = [R;R;G;B] }
 
 let level46 = {
@@ -736,7 +788,7 @@ let level46 = {
     start = Pos 3
     portal = Pos 4
     christals = [ 0; 1;1;1; 4 ]
-    conditions = [ChristalCount (Christals 2); Troll Purple ;ChristalCount (Christals 5)]
+    conditions = [x2; Troll Purple ;x5]
     moves = [B;G;R;R] }
 
 let level47 = {
@@ -745,7 +797,7 @@ let level47 = {
     start = Pos 0
     portal = Pos 8
     christals = [1;6] 
-    conditions = [ChristalCount (Christals 1)]
+    conditions = [x1]
     moves = [R;R;G;G;G;B] }
 
 let level50 = {
@@ -754,7 +806,7 @@ let level50 = {
     start = Pos 8
     portal = Pos 11
     christals = [ 4; 4; 5; 11; 11 ]
-    conditions = [ChristalCount (Christals 1)]
+    conditions = [x1]
     moves = [R;G;G;G;B;B] }
 
 let level55 = {
@@ -763,7 +815,7 @@ let level55 = {
     start = Pos 0
     portal = Pos 5
     christals =  [ 1; 1; 4; 5]
-    conditions = [ChristalCount (Christals 1); ChristalCount (Christals 4)]
+    conditions = [x1;x4]
     moves = [R;G;B;B] }
 
 let level60 = {
@@ -772,7 +824,7 @@ let level60 = {
     start = Pos 8
     portal = Pos 9
     christals = [ 2; 9]
-    conditions = [ChristalCount (Christals 2)]
+    conditions = [x2]
     moves = [R;R;R;G;G;B;B] }
 
 
@@ -825,6 +877,11 @@ solve level27
 solve level28
 solve level29
 solve level30
+solve level31
+solve level32
+solve level33
+solve level34
+solve level35
 solve level45
 solve level46
 solve level47
