@@ -773,6 +773,24 @@ let level35 = {
     conditions = [x2;x3]
     moves = [R;G;B]
 }
+let level36 = {
+    map = map6
+    scroll = scroll7()
+    start = Pos 2
+    portal = Pos 1
+    christals = [0;3;3]
+    conditions = [Troll Orange]
+    moves = [R;R;G;G;G;B]
+}
+let level37 = {
+    map = map7
+    scroll = scroll6()
+    start = Pos 1
+    portal = Pos 5
+    christals = [3;8]
+    conditions = [x1]
+    moves = [R;R;G;B]
+}
 let level45 = {
     map = map5
     scroll = scroll11()
@@ -882,6 +900,8 @@ solve level32
 solve level33
 solve level34
 solve level35
+solve level36
+solve level37
 solve level45
 solve level46
 solve level47
