@@ -818,6 +818,15 @@ let level40 = {
     conditions = [Troll Purple]
     moves = [R;R;G;G;B;B;B]
 }
+let level41 = {
+    map = map10
+    scroll = scroll9()
+    start = Pos 8
+    portal = Pos 6
+    christals = [2;4;9;11]
+    conditions = [Troll Purple]
+    moves = [R;R;G;G;B;B;B]
+}
 let level45 = {
     map = map5
     scroll = scroll11()
