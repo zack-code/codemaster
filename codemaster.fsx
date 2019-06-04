@@ -791,6 +791,33 @@ let level37 = {
     conditions = [x1]
     moves = [R;R;G;B]
 }
+let level38 = {
+    map = map8
+    scroll = scroll6()
+    start = Pos 8
+    portal = Pos 2
+    christals = [1]
+    conditions = [Troll Orange]
+    moves = [R;R;G;B]
+}
+let level39 = {
+    map = map9
+    scroll = scroll5()
+    start = Pos 3
+    portal = Pos 0
+    christals = [2;4;9]
+    conditions = []
+    moves = [R;R;R;G;G;B;B]
+}
+let level40 = {
+    map = map10
+    scroll = scroll9()
+    start = Pos 8
+    portal = Pos 6
+    christals = [2;4;9;11]
+    conditions = [Troll Purple]
+    moves = [R;R;G;G;B;B;B]
+}
 let level45 = {
     map = map5
     scroll = scroll11()
@@ -902,6 +929,9 @@ solve level34
 solve level35
 solve level36
 solve level37
+solve level38
+solve level39
+solve level40
 solve level45
 solve level46
 solve level47
@@ -925,4 +955,3 @@ let a =
     |> Seq.take 10000
     |> Array.ofSeq
     |> Array.Parallel.map State.tryPath
-
