@@ -819,13 +819,31 @@ let level40 = {
     moves = [R;R;G;G;B;B;B]
 }
 let level41 = {
-    map = map10
-    scroll = scroll9()
-    start = Pos 8
-    portal = Pos 6
-    christals = [2;4;9;11]
+    map = map1
+    scroll = scroll8()
+    start = Pos 1
+    portal = Pos 0
+    christals = [2;4]
+    conditions = [Troll Purple;Troll Orange]
+    moves = [R;G;B]
+}
+let level42 = {
+    map = map2
+    scroll = scroll10()
+    start = Pos 0
+    portal = Pos 2
+    christals = [3;3;3;4;4;4]
     conditions = [Troll Purple]
-    moves = [R;R;G;G;B;B;B]
+    moves = [R;R;G;B]
+}
+let level43 = {
+    map = map3
+    scroll = scroll8()
+    start = Pos 5
+    portal = Pos 3
+    christals = [0;1;2;3;4]
+    conditions = [x1;x5]
+    moves = [R;G;B]
 }
 let level45 = {
     map = map5
@@ -941,6 +959,9 @@ solve level37
 solve level38
 solve level39
 solve level40
+solve level41
+solve level42
+solve level43
 solve level45
 solve level46
 solve level47
