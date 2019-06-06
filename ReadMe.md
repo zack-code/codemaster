@@ -2,7 +2,7 @@
 
 This is a solver for [Code Master](https://www.thinkfun.com/products/code-master/), a game to learn programming logic.
 
-Being stuck with my son at the 45 level, we decided that solving it by programming a solver was not cheating.
+Being stuck with my son at the 49th level, we decided that solving it by programming a solver was not cheating.
 
 It's in F# to enable quick iterations. It's only pure functional code for easier
 reasoning.
