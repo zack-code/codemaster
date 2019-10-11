@@ -8,3 +8,5 @@ It's in F# to enable quick iterations. It's only pure functional code for easier
 reasoning.
 
 We also tried to make level input as close as possible from what we find in the game leaflet.
+
+*Zack & Jérémie*

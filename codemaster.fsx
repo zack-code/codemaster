@@ -845,6 +845,15 @@ let level43 = {
     conditions = [x1;x5]
     moves = [R;G;B]
 }
+let level44 = {
+    map = map4
+    scroll = scroll6()
+    start = Pos 2
+    portal = Pos 3
+    christals = [0;4;5]
+    conditions = [x1]
+    moves = [R;G;G;B]
+}
 let level45 = {
     map = map5
     scroll = scroll11()
@@ -852,8 +861,8 @@ let level45 = {
     portal = Pos 3
     christals = [1;1;1 ]
     conditions = [x3; Troll Purple]
-    moves = [R;R;G;B] }
-
+    moves = [R;R;G;B] 
+    }
 let level46 = {
     map = map6
     scroll = scroll12()
@@ -861,8 +870,8 @@ let level46 = {
     portal = Pos 4
     christals = [ 0; 1;1;1; 4 ]
     conditions = [x2; Troll Purple ;x5]
-    moves = [B;G;R;R] }
-
+    moves = [B;G;R;R] 
+    }
 let level47 = {
     map = map7
     scroll = scroll7()
@@ -870,8 +879,26 @@ let level47 = {
     portal = Pos 8
     christals = [1;6] 
     conditions = [x1]
-    moves = [R;R;G;G;G;B] }
-
+    moves = [R;R;G;G;G;B] 
+    }
+let level48 = {
+    map = map8
+    scroll = scroll10()
+    start = Pos 1
+    portal = Pos 3
+    christals = [6;11] 
+    conditions = [x2]
+    moves = [R;G;B;B] 
+    }
+let level49 = {
+    map = map9
+    scroll = scroll5()
+    start = Pos 1
+    portal = Pos 8
+    christals = [2;3;6] 
+    conditions = []
+    moves = [R;R;G;G;G;G;B] 
+    }
 let level50 = {
     map = map10
     scroll = scroll7()
@@ -879,8 +906,26 @@ let level50 = {
     portal = Pos 11
     christals = [ 4; 4; 5; 11; 11 ]
     conditions = [x1]
-    moves = [R;G;G;G;B;B] }
-
+    moves = [R;G;G;G;B;B] 
+    }
+let level51 = {
+    map = map1
+    scroll = scroll12()
+    start = Pos 4
+    portal = Pos 0
+    christals = [0;5;5]
+    conditions = [Troll Orange;x2;x3]
+    moves = [R;G;B;B] 
+    }
+let level52 = {
+    map = map2
+    scroll = scroll7()
+    start = Pos 5
+    portal = Pos 3
+    christals = [0;1;1;2;4]
+    conditions = [Troll Orange]
+    moves = [R;R;G;G;G;B] 
+    }
 let level55 = {
     map = map5
     scroll = scroll11()
@@ -962,10 +1007,15 @@ solve level40
 solve level41
 solve level42
 solve level43
+solve level44
 solve level45
 solve level46
 solve level47
+solve level48
+solve level49
 solve level50
+solve level51
+solve level52
 solve level55
 solve level60
 
