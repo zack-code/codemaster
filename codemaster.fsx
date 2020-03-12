@@ -926,6 +926,24 @@ let level52 = {
     conditions = [Troll Orange]
     moves = [R;R;G;G;G;B] 
     }
+let level53 = {
+    map = map3
+    scroll = scroll12()
+    start = Pos 4
+    portal = Pos 4
+    christals = [0;0;2;2]
+    conditions = [Troll Orange;Troll Purple;x4]
+    moves = [R;G;G;B] 
+    }
+let level54 = {
+    map = map4
+    scroll = scroll11()
+    start = Pos 3
+    portal = Pos 0
+    christals = [1;4;5]
+    conditions = [x2;x3]
+    moves = [R;G;G;B] 
+    }
 let level55 = {
     map = map5
     scroll = scroll11()
@@ -933,8 +951,44 @@ let level55 = {
     portal = Pos 5
     christals =  [ 1; 1; 4; 5]
     conditions = [x1;x4]
-    moves = [R;G;B;B] }
-
+    moves = [R;G;B;B] 
+    }
+let level56 = {
+    map = map6
+    scroll = scroll9()
+    start = Pos 4
+    portal = Pos 1
+    christals =  [1;1;2;2;3;3]
+    conditions = [x5]
+    moves = [R;R;R;G;G;G;B] 
+    }
+let level57 = {
+    map = map7
+    scroll = scroll11()
+    start = Pos 0
+    portal = Pos 0
+    christals =  [2;3;3;4;5;7]
+    conditions = [x4;Troll Orange]
+    moves = [R;G;B;B] 
+    }
+let level58 = {
+    map = map8
+    scroll = scroll9()
+    start = Pos 5
+    portal = Pos 8
+    christals =  [0;9;10]
+    conditions = [Troll Orange]
+    moves = [R;R;G;G;G;B;B] 
+    }
+let level59 = {
+    map = map9
+    scroll = scroll11()
+    start = Pos 0
+    portal = Pos 1
+    christals =  [2;5;7;7;7]
+    conditions = [x2;Troll Orange]
+    moves = [R;G;B;B] 
+    }
 let level60 = {
     map = map10
     scroll = scroll9()
@@ -1016,7 +1070,13 @@ solve level49
 solve level50
 solve level51
 solve level52
+solve level53
+solve level54
 solve level55
+solve level56
+solve level57
+solve level58
+solve level59
 solve level60
 
 #time
